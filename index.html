@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <title>Counter Timer</title>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <div class="timerDisplay">
+      <div class="display-row">
+        <input type="text" id="displayDays" value="00">
+        <span>Days</span>
+      </div>
+      <div class="display-row">
+        <input type="text" id="displayHrs" value="00">
+        <span>Hours</span>
+      </div>
+      <div class="display-row">
+        <input type="text" id="displayMins" value="00">
+        <span>Minutes</span>
+      </div>
+      <div class="display-row">
+        <input type="text" id="displaySecs" value="00">
+        <span>Seconds</span>
+      </div>
+    </div>
+
+    <div class="inputButtons">
+      <div class="inputRow">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+      </div>
+      <div class="inputRow">
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+      </div>
+      <div class="inputRow">
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+      </div>
+      <div class="inputRow">
+        <button>0</button>
+        <button>
+          <span class="material-symbols-outlined">
+          backspace
+        </span>
+      </button>
+      </div>
+    </div>
+    <div class="btnGroup">
+      <button id="startBtn">Start</button>
+      <button id="stopBtn">Stop</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+  </div>
+
+  <div class="msg-wrapper">
+    <div class="msg">
+      <h1>Lets start new</h1>
+    </div>
+    <div class="msg-back-btn">
+      <span class="material-symbols-outlined">
+        arrow_back
+      </span>
+    </div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+
+</html>
